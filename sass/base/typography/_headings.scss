@@ -1,8 +1,26 @@
-h1,
+$font-path: "./fonts" !default;
+
+@font-face {
+  font-family: "Gotham_Light";
+  src: local("Gotham Light"), local("Gotham_Light"), local("Gotham-Light"),
+    url("#{$font-path}/Gotham_Light.otf"), format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham_Medium";
+  src: local("Gotham Medium"), local("Gotham_Medium"), local("Gotham-Medium"),
+    url("#{$font-path}/Gotham_Medium.otf"), format("opentype");
+}
+
+h1 {
+  font-family: "Gotham_Light", sans-serif;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-	clear: both;
+  font-family: "Gotham_Medium", sans-serif;
+  clear: both;
 }
