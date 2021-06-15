@@ -1,7 +1,20 @@
-$color__background-body: #fff;
+$color__background-body: #000;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
+$color__background-image-primary: linear-gradient(
+  to right,
+  #3366b0 0%,
+  #de4869 51%,
+  #3366b0 100%
+);
+$color__background-image-secundary: linear-gradient(
+  to right,
+  #fed700 0%,
+  #de4869 51%,
+  #fed700 100%
+);
+$color__background-image-hover: linear-gradient(to right, #faad1a, #3366b0);
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 
@@ -18,3 +31,4 @@ $color__border-button-hover: #ccc #bbb #aaa;
 $color__border-button-focus: #aaa #bbb #bbb;
 $color__border-input: #ccc;
 $color__border-abbr: #666;
+$color__button-text: #fff;
